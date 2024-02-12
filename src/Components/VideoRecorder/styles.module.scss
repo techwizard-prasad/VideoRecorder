@@ -1,0 +1,13 @@
+.videoRecorder {
+  border: solid 1px #eee;
+  padding: 30px;
+  border-radius: 8px;
+
+  &.noPermission {
+    border-color: #cc3300;
+  }
+
+  &.recording {
+    border-color: green;
+  }
+}
